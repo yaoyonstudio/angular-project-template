@@ -5,9 +5,6 @@ export default class TestCtrl {
     Ajax(CONFIG.API_URL + '/sliders', null, 'QUERY', (res) => {
       console.log(res)
     })
-    // Ajax(CONFIG.EXTEND_URL + '/business/getTypea', null, 'GET', (res) => {
-    //   console.log(res)
-    // })
   }
 }
 TestCtrl.$inject = ['CONFIG', 'Ajax', '$exceptionHandler']
